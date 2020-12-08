@@ -149,6 +149,8 @@
     <ClCompile Include="IntegerToRomanTest.cpp" />
     <ClCompile Include="JewelsAndStones.cpp" />
     <ClCompile Include="JewelsAndStonesTest.cpp" />
+    <ClCompile Include="LongestCommonPrefix.cpp" />
+    <ClCompile Include="LongestCommonPrefixTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
@@ -163,6 +165,8 @@
     <ClInclude Include="IntegerToRomanTest.h" />
     <ClInclude Include="JewelsAndStones.h" />
     <ClInclude Include="JewelsAndStonesTest.h" />
+    <ClInclude Include="LongestCommonPrefix.h" />
+    <ClInclude Include="LongestCommonPrefixTest.h" />
     <ClInclude Include="Test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
