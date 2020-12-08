@@ -144,6 +144,9 @@
     <ClCompile Include="ValidParenheses20.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveElement27.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -246,6 +249,9 @@
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
     <ClInclude Include="RomanToInteger.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveElement27.h">
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>
