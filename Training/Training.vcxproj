@@ -165,6 +165,7 @@
     <ClCompile Include="ProcessCreating.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArray26.cpp" />
     <ClCompile Include="RemoveElement27.cpp" />
+    <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="reverseNumberClass.cpp" />
     <ClCompile Include="reverseString.cpp" />
     <ClCompile Include="RomanToInteger.cpp" />
@@ -204,6 +205,7 @@
     <ClInclude Include="ProcessCreating.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedArray26.h" />
     <ClInclude Include="RemoveElement27.h" />
+    <ClInclude Include="ReverseInteger.h" />
     <ClInclude Include="reverseNumberClass.h" />
     <ClInclude Include="reverseString.h" />
     <ClInclude Include="RomanToInteger.h" />
