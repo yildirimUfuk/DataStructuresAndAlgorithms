@@ -105,11 +105,14 @@
     <ClCompile Include="_3SumTest.cpp">
       <Filter>Source Files\leetCode\test</Filter>
     </ClCompile>
-    <ClCompile Include="CoinExchangeTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MinCoinExchange.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinExchangeTest.cpp">
+      <Filter>Source Files\leetCode\test</Filter>
+    </ClCompile>
+    <ClCompile Include="reverseNumberClass.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -177,10 +180,13 @@
       <Filter>Header Files\leetCode\test</Filter>
     </ClInclude>
     <ClInclude Include="CoinExchangeTest.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\leetCode\test</Filter>
     </ClInclude>
     <ClInclude Include="MinCoinExchange.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="reverseNumberClass.h">
+      <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
