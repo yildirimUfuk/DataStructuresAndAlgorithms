@@ -123,6 +123,9 @@
     <ClCompile Include="palindromeNumberClass.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -204,6 +207,9 @@
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
     <ClInclude Include="palindromeNumberClass.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h">
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>

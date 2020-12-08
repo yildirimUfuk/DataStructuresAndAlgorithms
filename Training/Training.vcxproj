@@ -154,6 +154,7 @@
     <ClCompile Include="LongestCommonPrefixTest.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LongestPalindromicSubstringTest.cpp" />
+    <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrayTest.cpp" />
@@ -184,6 +185,7 @@
     <ClInclude Include="LongestCommonPrefixTest.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
     <ClInclude Include="LongestPalindromicSubstringTest.h" />
+    <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h" />
     <ClInclude Include="MedianOfTwoSortedArrays.h" />
     <ClInclude Include="MedianOfTwoSortedArrayTest.h" />
     <ClInclude Include="MinCoinExchange.h" />
