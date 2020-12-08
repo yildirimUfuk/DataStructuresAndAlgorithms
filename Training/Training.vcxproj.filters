@@ -138,6 +138,9 @@
     <ClCompile Include="TwoSum.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="ValidParenheses20.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -235,6 +238,9 @@
     </ClInclude>
     <ClInclude Include="TwoSum.h">
       <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidParenheses20.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -170,6 +170,7 @@
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="twoSumClass.cpp" />
+    <ClCompile Include="ValidParenheses20.cpp" />
     <ClCompile Include="_3Sum.cpp" />
     <ClCompile Include="_3SumTest.cpp" />
   </ItemGroup>
@@ -204,6 +205,7 @@
     <ClInclude Include="Test.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="twoSumClass.h" />
+    <ClInclude Include="ValidParenheses20.h" />
     <ClInclude Include="_3Sum.h" />
     <ClInclude Include="_3SumTest.h" />
   </ItemGroup>
