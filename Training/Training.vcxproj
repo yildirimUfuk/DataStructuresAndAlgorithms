@@ -141,12 +141,16 @@
   <ItemGroup>
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="AddTwoNumbersTest.cpp" />
+    <ClCompile Include="ContainerWithMostWater.cpp" />
+    <ClCompile Include="ContainerWithMostWaterTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="AddTwoNumbersTest.h" />
+    <ClInclude Include="ContainerWithMostWater.h" />
+    <ClInclude Include="ContainerWithMostWaterTest.h" />
     <ClInclude Include="Test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

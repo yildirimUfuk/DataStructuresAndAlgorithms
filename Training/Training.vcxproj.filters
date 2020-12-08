@@ -51,6 +51,12 @@
     <ClCompile Include="AddTwoNumbers.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="ContainerWithMostWater.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerWithMostWaterTest.cpp">
+      <Filter>Source Files\leetCode\test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -61,6 +67,12 @@
     </ClInclude>
     <ClInclude Include="AddTwoNumbers.h">
       <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerWithMostWater.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerWithMostWaterTest.h">
+      <Filter>Header Files\leetCode\test</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
