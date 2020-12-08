@@ -143,6 +143,8 @@
     <ClCompile Include="AddTwoNumbersTest.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainerWithMostWaterTest.cpp" />
+    <ClCompile Include="EditDistancaBetweenTwoStringsTest.cpp" />
+    <ClCompile Include="EditDistanceBetweenTwoStrings.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
@@ -151,6 +153,8 @@
     <ClInclude Include="AddTwoNumbersTest.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="ContainerWithMostWaterTest.h" />
+    <ClInclude Include="EditDistancaBetweenTwoStringsTest.h" />
+    <ClInclude Include="EditDistanceBetweenTwoStrings.h" />
     <ClInclude Include="Test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

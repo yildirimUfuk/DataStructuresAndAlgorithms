@@ -57,6 +57,12 @@
     <ClCompile Include="ContainerWithMostWaterTest.cpp">
       <Filter>Source Files\leetCode\test</Filter>
     </ClCompile>
+    <ClCompile Include="EditDistancaBetweenTwoStringsTest.cpp">
+      <Filter>Source Files\leetCode\test</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDistanceBetweenTwoStrings.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -73,6 +79,12 @@
     </ClInclude>
     <ClInclude Include="ContainerWithMostWaterTest.h">
       <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDistancaBetweenTwoStringsTest.h">
+      <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDistanceBetweenTwoStrings.h">
+      <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
