@@ -126,6 +126,9 @@
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="MergeTwoSortedList21.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -210,6 +213,9 @@
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
     <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeTwoSortedList21.h">
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>
