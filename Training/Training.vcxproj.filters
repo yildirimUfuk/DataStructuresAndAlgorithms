@@ -93,6 +93,12 @@
     <ClCompile Include="MedianOfTwoSortedArrays.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="stringToIntegerTest.cpp">
+      <Filter>Source Files\leetCode\test</Filter>
+    </ClCompile>
+    <ClCompile Include="stringToInteger.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -145,6 +151,12 @@
     </ClInclude>
     <ClInclude Include="MedianOfTwoSortedArrayTest.h">
       <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="stringToIntegerTest.h">
+      <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="stringToInteger.h">
+      <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
