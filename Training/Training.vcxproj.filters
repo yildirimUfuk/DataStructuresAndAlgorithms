@@ -129,6 +129,12 @@
     <ClCompile Include="MergeTwoSortedList21.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="ProcessCreating.cpp">
+      <Filter>Source Files\workForSchool</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryUsage.cpp">
+      <Filter>Source Files\workForSchool</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -217,6 +223,12 @@
     </ClInclude>
     <ClInclude Include="MergeTwoSortedList21.h">
       <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessCreating.h">
+      <Filter>Header Files\workForSchool</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUsage.h">
+      <Filter>Header Files\workForSchool</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
