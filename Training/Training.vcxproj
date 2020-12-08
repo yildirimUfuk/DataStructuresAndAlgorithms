@@ -167,6 +167,7 @@
     <ClCompile Include="reverseNumberClass.cpp" />
     <ClCompile Include="reverseString.cpp" />
     <ClCompile Include="RomanToInteger.cpp" />
+    <ClCompile Include="SearchInsertPosition35.cpp" />
     <ClCompile Include="stringToInteger.cpp" />
     <ClCompile Include="stringToIntegerTest.cpp" />
     <ClCompile Include="Test.cpp" />
@@ -204,6 +205,7 @@
     <ClInclude Include="reverseNumberClass.h" />
     <ClInclude Include="reverseString.h" />
     <ClInclude Include="RomanToInteger.h" />
+    <ClInclude Include="SearchInsertPosition35.h" />
     <ClInclude Include="stringToInteger.h" />
     <ClInclude Include="stringToIntegerTest.h" />
     <ClInclude Include="Test.h" />
