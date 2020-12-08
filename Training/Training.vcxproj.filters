@@ -63,6 +63,12 @@
     <ClCompile Include="EditDistanceBetweenTwoStrings.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="IntegerToRoman.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerToRomanTest.cpp">
+      <Filter>Source Files\leetCode\test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -84,6 +90,12 @@
       <Filter>Header Files\leetCode\test</Filter>
     </ClInclude>
     <ClInclude Include="EditDistanceBetweenTwoStrings.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerToRomanTest.h">
+      <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerToRoman.h">
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>

@@ -145,6 +145,8 @@
     <ClCompile Include="ContainerWithMostWaterTest.cpp" />
     <ClCompile Include="EditDistancaBetweenTwoStringsTest.cpp" />
     <ClCompile Include="EditDistanceBetweenTwoStrings.cpp" />
+    <ClCompile Include="IntegerToRoman.cpp" />
+    <ClCompile Include="IntegerToRomanTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
@@ -155,6 +157,8 @@
     <ClInclude Include="ContainerWithMostWaterTest.h" />
     <ClInclude Include="EditDistancaBetweenTwoStringsTest.h" />
     <ClInclude Include="EditDistanceBetweenTwoStrings.h" />
+    <ClInclude Include="IntegerToRoman.h" />
+    <ClInclude Include="IntegerToRomanTest.h" />
     <ClInclude Include="Test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
