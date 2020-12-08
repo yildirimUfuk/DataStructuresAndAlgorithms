@@ -158,6 +158,7 @@
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrayTest.cpp" />
     <ClCompile Include="MinCoinExchange.cpp" />
+    <ClCompile Include="palindromeNumberClass.cpp" />
     <ClCompile Include="reverseNumberClass.cpp" />
     <ClCompile Include="reverseString.cpp" />
     <ClCompile Include="stringToInteger.cpp" />
@@ -186,6 +187,7 @@
     <ClInclude Include="MedianOfTwoSortedArrays.h" />
     <ClInclude Include="MedianOfTwoSortedArrayTest.h" />
     <ClInclude Include="MinCoinExchange.h" />
+    <ClInclude Include="palindromeNumberClass.h" />
     <ClInclude Include="reverseNumberClass.h" />
     <ClInclude Include="reverseString.h" />
     <ClInclude Include="stringToInteger.h" />
