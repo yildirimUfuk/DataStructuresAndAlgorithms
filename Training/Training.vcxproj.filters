@@ -87,6 +87,12 @@
     <ClCompile Include="LongestPalindromicSubstring.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="MedianOfTwoSortedArrayTest.cpp">
+      <Filter>Source Files\leetCode\test</Filter>
+    </ClCompile>
+    <ClCompile Include="MedianOfTwoSortedArrays.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -132,6 +138,12 @@
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
     <ClInclude Include="LongestPalindromicSubstringTest.h">
+      <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="MedianOfTwoSortedArrays.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="MedianOfTwoSortedArrayTest.h">
       <Filter>Header Files\leetCode\test</Filter>
     </ClInclude>
   </ItemGroup>
