@@ -138,8 +138,11 @@
     <ClCompile Include="TwoSum.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="RomanToInteger.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
     <ClCompile Include="ValidParenheses20.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -240,7 +243,10 @@
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
     <ClInclude Include="ValidParenheses20.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="RomanToInteger.h">
+      <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
