@@ -117,6 +117,9 @@
     <ClCompile Include="reverseString.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="twoSumClass.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -192,6 +195,9 @@
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
     <ClInclude Include="reverseString.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="twoSumClass.h">
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>

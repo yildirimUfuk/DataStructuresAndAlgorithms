@@ -163,6 +163,7 @@
     <ClCompile Include="stringToInteger.cpp" />
     <ClCompile Include="stringToIntegerTest.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="twoSumClass.cpp" />
     <ClCompile Include="_3Sum.cpp" />
     <ClCompile Include="_3SumTest.cpp" />
   </ItemGroup>
@@ -190,6 +191,7 @@
     <ClInclude Include="stringToInteger.h" />
     <ClInclude Include="stringToIntegerTest.h" />
     <ClInclude Include="Test.h" />
+    <ClInclude Include="twoSumClass.h" />
     <ClInclude Include="_3Sum.h" />
     <ClInclude Include="_3SumTest.h" />
   </ItemGroup>
