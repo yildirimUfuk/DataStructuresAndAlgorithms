@@ -19,23 +19,23 @@
     <Filter Include="Header Files\workForSchool">
       <UniqueIdentifier>{adc4246a-73eb-4dcf-b356-50c1d54dabe9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\leetCode">
-      <UniqueIdentifier>{3923f3af-2a7c-4ac7-acee-5d9510134ea3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\workForSchool">
-      <UniqueIdentifier>{3ddc68e9-9a15-4550-a97c-a9a2be6fafc3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\leetCode\test">
-      <UniqueIdentifier>{e740c164-a88a-4ea3-963c-31464a78cda3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\leetCode\problem">
-      <UniqueIdentifier>{2dc1db80-da05-401f-b66d-c856c141cd0c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\leetCode\test">
       <UniqueIdentifier>{5e3ca9fd-afd5-4285-8d79-c3596835b3cd}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\leetCode\problem">
       <UniqueIdentifier>{6cb1282d-6051-413d-8685-05cf655ea46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\leetCode">
+      <UniqueIdentifier>{3923f3af-2a7c-4ac7-acee-5d9510134ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\leetCode\test">
+      <UniqueIdentifier>{e740c164-a88a-4ea3-963c-31464a78cda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\leetCode\problem">
+      <UniqueIdentifier>{2dc1db80-da05-401f-b66d-c856c141cd0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\workForSchool">
+      <UniqueIdentifier>{3ddc68e9-9a15-4550-a97c-a9a2be6fafc3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -43,12 +43,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Test.cpp">
-      <Filter>Resource Files\leetCode\test</Filter>
+      <Filter>Source Files\leetCode\test</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTwoNumbersTest.cpp">
+      <Filter>Source Files\leetCode\test</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTwoNumbers.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
       <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTwoNumbersTest.h">
+      <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTwoNumbers.h">
+      <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
