@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="AddTwoNumbersTest.cpp" />
+    <ClCompile Include="CoinExchangeTest.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainerWithMostWaterTest.cpp" />
     <ClCompile Include="EditDistancaBetweenTwoStringsTest.cpp" />
@@ -156,6 +157,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrayTest.cpp" />
+    <ClCompile Include="MinCoinExchange.cpp" />
     <ClCompile Include="stringToInteger.cpp" />
     <ClCompile Include="stringToIntegerTest.cpp" />
     <ClCompile Include="Test.cpp" />
@@ -165,6 +167,7 @@
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="AddTwoNumbersTest.h" />
+    <ClInclude Include="CoinExchangeTest.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="ContainerWithMostWaterTest.h" />
     <ClInclude Include="EditDistancaBetweenTwoStringsTest.h" />
@@ -179,6 +182,7 @@
     <ClInclude Include="LongestPalindromicSubstringTest.h" />
     <ClInclude Include="MedianOfTwoSortedArrays.h" />
     <ClInclude Include="MedianOfTwoSortedArrayTest.h" />
+    <ClInclude Include="MinCoinExchange.h" />
     <ClInclude Include="stringToInteger.h" />
     <ClInclude Include="stringToIntegerTest.h" />
     <ClInclude Include="Test.h" />
