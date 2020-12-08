@@ -163,6 +163,7 @@
     <ClCompile Include="MinCoinExchange.cpp" />
     <ClCompile Include="palindromeNumberClass.cpp" />
     <ClCompile Include="ProcessCreating.cpp" />
+    <ClCompile Include="RemoveDuplicatesFromSortedArray26.cpp" />
     <ClCompile Include="RemoveElement27.cpp" />
     <ClCompile Include="reverseNumberClass.cpp" />
     <ClCompile Include="reverseString.cpp" />
@@ -201,6 +202,7 @@
     <ClInclude Include="MinCoinExchange.h" />
     <ClInclude Include="palindromeNumberClass.h" />
     <ClInclude Include="ProcessCreating.h" />
+    <ClInclude Include="RemoveDuplicatesFromSortedArray26.h" />
     <ClInclude Include="RemoveElement27.h" />
     <ClInclude Include="reverseNumberClass.h" />
     <ClInclude Include="reverseString.h" />
