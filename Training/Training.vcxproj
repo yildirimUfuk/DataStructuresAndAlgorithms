@@ -150,6 +150,8 @@
     <ClCompile Include="IntegerToRomanTest.cpp" />
     <ClCompile Include="JewelsAndStones.cpp" />
     <ClCompile Include="JewelsAndStonesTest.cpp" />
+    <ClCompile Include="linkedList.cpp" />
+    <ClCompile Include="linkedListTest.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestCommonPrefixTest.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
@@ -176,6 +178,7 @@
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="twoSumClass.cpp" />
     <ClCompile Include="ValidParenheses20.cpp" />
+    <ClCompile Include="wfsTests.cpp" />
     <ClCompile Include="_3Sum.cpp" />
     <ClCompile Include="_3SumTest.cpp" />
   </ItemGroup>
@@ -191,6 +194,8 @@
     <ClInclude Include="IntegerToRomanTest.h" />
     <ClInclude Include="JewelsAndStones.h" />
     <ClInclude Include="JewelsAndStonesTest.h" />
+    <ClInclude Include="linkedList.h" />
+    <ClInclude Include="linkedListTest.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestCommonPrefixTest.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
@@ -216,6 +221,7 @@
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="twoSumClass.h" />
     <ClInclude Include="ValidParenheses20.h" />
+    <ClInclude Include="wfsTests.h" />
     <ClInclude Include="_3Sum.h" />
     <ClInclude Include="_3SumTest.h" />
   </ItemGroup>

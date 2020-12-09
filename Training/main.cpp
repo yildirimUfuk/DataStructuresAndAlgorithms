@@ -1,9 +1,10 @@
 #include<iostream>
 using namespace std;
 #include"Test.h"
+#include"wfsTests.h"
 
 int main()
 {
-	Test t;
-	t.testMethod();
+	wfsTests t;
+	t.test();
 }

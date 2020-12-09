@@ -37,6 +37,18 @@
     <Filter Include="Source Files\workForSchool">
       <UniqueIdentifier>{3ddc68e9-9a15-4550-a97c-a9a2be6fafc3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\workForSchool\tests">
+      <UniqueIdentifier>{b6684b3c-7166-4fb7-8717-51c4b6d8a78f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\workForSchool\sources">
+      <UniqueIdentifier>{479ef428-2bc5-4b71-a8fb-fe659a91c7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\workForSchool\sources">
+      <UniqueIdentifier>{528e785c-4244-4d06-8b16-af3d474f9f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\workForSchool\tests">
+      <UniqueIdentifier>{ce088597-07e4-4946-947f-633d4fe15a86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -129,12 +141,6 @@
     <ClCompile Include="MergeTwoSortedList21.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
-    <ClCompile Include="ProcessCreating.cpp">
-      <Filter>Source Files\workForSchool</Filter>
-    </ClCompile>
-    <ClCompile Include="MemoryUsage.cpp">
-      <Filter>Source Files\workForSchool</Filter>
-    </ClCompile>
     <ClCompile Include="TwoSum.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
@@ -155,6 +161,21 @@
     </ClCompile>
     <ClCompile Include="ReverseInteger.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="linkedList.cpp">
+      <Filter>Source Files\workForSchool\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryUsage.cpp">
+      <Filter>Source Files\workForSchool\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessCreating.cpp">
+      <Filter>Source Files\workForSchool\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="wfsTests.cpp">
+      <Filter>Source Files\workForSchool\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="linkedListTest.cpp">
+      <Filter>Source Files\workForSchool\tests</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -245,12 +266,6 @@
     <ClInclude Include="MergeTwoSortedList21.h">
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
-    <ClInclude Include="ProcessCreating.h">
-      <Filter>Header Files\workForSchool</Filter>
-    </ClInclude>
-    <ClInclude Include="MemoryUsage.h">
-      <Filter>Header Files\workForSchool</Filter>
-    </ClInclude>
     <ClInclude Include="TwoSum.h">
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
@@ -271,6 +286,21 @@
     </ClInclude>
     <ClInclude Include="ReverseInteger.h">
       <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedList.h">
+      <Filter>Header Files\workForSchool\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUsage.h">
+      <Filter>Header Files\workForSchool\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessCreating.h">
+      <Filter>Header Files\workForSchool\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="wfsTests.h">
+      <Filter>Header Files\workForSchool\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedListTest.h">
+      <Filter>Header Files\workForSchool\tests</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
