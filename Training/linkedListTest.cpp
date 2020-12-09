@@ -52,26 +52,45 @@ bool linkedListTest::addTest4()
 
 void linkedListTest::linkedListAddTests()
 {
+	std::vector<bool>addAccuracy;
 	addAccuracy.push_back(addTest1());
 	addAccuracy.push_back(addTest2());
 	addAccuracy.push_back(addTest3());
 	addAccuracy.push_back(addTest4());
-	printValidity(addAccuracy);
+	std::cout << "add tests accuracy values are :\n";
+	printValidity(&addAccuracy);
 }
 
 void linkedListTest::linkedListDeleteTest()
 {
+	std::vector<bool>deleteAccuracy;
+	deleteAccuracy.push_back(deleteTest1());
 
+	std::cout << "delete tests accuracy values are :\n";
+	printValidity(&deleteAccuracy);
+}
+
+bool linkedListTest::deleteTest1()
+{
+	myList.doubleAproachDelete(root, 99);
+	myNode* listIter = root;
+	for (auto iter : correctAnswer) {
+		if (listIter->key != iter) return false;
+		listIter = listIter->next;
+	}
+	return true;
 }
 
 void linkedListTest::allTests()
 {
 	linkedListAddTests();
+	linkedListDeleteTest();
 }
 
-void linkedListTest::printValidity(std::vector<bool> accuracy)
+void linkedListTest::printValidity(std::vector<bool> *accuracy)
 {
 	int counter = 0;
-	for (auto item : accuracy)
-		item ? std::cout << "Test " << ++counter << " bas been compleated.\n" : std::cout << "! Test " << ++counter << " has been failed \n";
+	for (auto item : (*accuracy))
+		item ? std::cout << "\tTest " << ++counter << " bas been compleated.\n" : std::cout << "\t! Test " << ++counter << " has been failed \n";
+	std::cout << "\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\n";
 }

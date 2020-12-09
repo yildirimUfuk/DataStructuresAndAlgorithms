@@ -2,6 +2,6 @@
 
 void wfsTests::test()
 {
-	std::cout << "linkedList tests solutions are: \n"; listTest.allTests();
+	std::cout << "# linkedList tests #\n"; listTest.allTests();
 	
 }
