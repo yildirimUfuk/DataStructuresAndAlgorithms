@@ -15,6 +15,10 @@ private:
 	bool addTest4();
 	void linkedListDeleteTest();
 	bool deleteTest1();
+	bool deleteTest2();
+	bool deleteTest3();
+	bool deleteTest4();
+	bool deleteTest5();
 	void printValidity(std::vector<bool>*accuracy);
 public:
 	void allTests();

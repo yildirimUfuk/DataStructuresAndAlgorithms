@@ -65,6 +65,10 @@ void linkedListTest::linkedListDeleteTest()
 {
 	std::vector<bool>deleteAccuracy;
 	deleteAccuracy.push_back(deleteTest1());
+	deleteAccuracy.push_back(deleteTest2());
+	deleteAccuracy.push_back(deleteTest3());
+	deleteAccuracy.push_back(deleteTest4());
+	deleteAccuracy.push_back(deleteTest5());
 
 	std::cout << "delete tests accuracy values are :\n";
 	printValidity(&deleteAccuracy);
@@ -76,6 +80,63 @@ bool linkedListTest::deleteTest1()
 	myNode* listIter = root;
 	for (auto iter : correctAnswer) {
 		if (listIter->key != iter) return false;
+		listIter = listIter->next;
+	}
+	return true;
+}
+
+bool linkedListTest::deleteTest2()
+{
+	correctAnswer.clear();
+	correctAnswer.push_back(1);
+	correctAnswer.push_back(4);
+	correctAnswer.push_back(5);
+	correctAnswer.push_back(6);
+	root = new myNode(1);
+	root->next = new myNode(2);
+	root->next->next = new myNode(4);
+	root->next->next->next = new myNode(5);
+	root->next->next->next->next = new myNode(6);
+	myList.doubleAproachDelete(root,2);
+	auto listIter = root;
+	for (auto iter : correctAnswer) {
+		if (iter != listIter->key) return false;
+		listIter = listIter->next;
+	}
+	return true;
+}
+
+bool linkedListTest::deleteTest3()
+{
+	root = myList.doubleAproachDelete(root, 6);
+	correctAnswer.erase(correctAnswer.begin()+correctAnswer.size()-1);
+	auto listIter = root;
+	for (auto iter : correctAnswer) {
+		if (iter != listIter->key) return false;
+		listIter = listIter->next;
+	}
+	return true;
+}
+
+bool linkedListTest::deleteTest4()
+{
+	correctAnswer.erase(correctAnswer.begin() + 1);
+	root=myList.doubleAproachDelete(root, 4);
+	auto listIter = root;
+	for (auto iter : correctAnswer) {
+		if (iter != listIter->key) return false;
+		listIter = listIter->next;
+	}
+	return true;
+}
+
+bool linkedListTest::deleteTest5()
+{
+	correctAnswer.erase(correctAnswer.begin());
+	root=myList.doubleAproachDelete(root,1);
+	auto listIter = root;
+	for (auto iter : correctAnswer) {
+		if (iter != listIter->key) return false;
 		listIter = listIter->next;
 	}
 	return true;
