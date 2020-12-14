@@ -98,6 +98,20 @@ void myBST::treePostorderTraverseWithStack()
     }
 }
 
+void myBST::treebreathFirstSearchAlgorithm()
+{
+    std::queue<twoChieldsNode*> myQueue;
+    myQueue.push(root);
+    while (!myQueue.empty())
+    {
+        auto iter = myQueue.front();
+        myQueue.pop();
+        traversedList.push_back(iter);
+        if (!iter->left) myQueue.push(iter->left);
+        if (!iter->right) myQueue.push(iter->right);
+    }
+}
+
 twoChieldsNode* myBST::find(int key)
 {
     return NULL;
