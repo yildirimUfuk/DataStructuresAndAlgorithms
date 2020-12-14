@@ -15,8 +15,9 @@ bool myBSTTest::addTest1()
     myBst.add(4);
     correctList.insert(4);
     int i = 0;
+    std::vector<twoChieldsNode*> traversedList = myBst.getTraversedList();
     for (auto iter : correctList)
-        if (iter != myBst.traversedList[i++]) return false;
+        if (iter != traversedList[i++]->key) return false;
     return true;
 }
 
@@ -25,8 +26,9 @@ bool myBSTTest::addTest2()
     myBst.add(6);
     correctList.insert(6);
     int i = 0;
+    std::vector<twoChieldsNode*> traversedList = myBst.getTraversedList();
     for (auto iter : correctList)
-        if (iter != myBst.traversedList[i++]) return false;
+        if (iter != traversedList[i]->key) return false;
     return true;
 }
 
@@ -35,8 +37,9 @@ bool myBSTTest::addTest3()
     myBst.add(3);
     correctList.insert(3);
     int i = 0;
+    std::vector<twoChieldsNode*> traversedList = myBst.getTraversedList();
     for (auto iter : correctList)
-        if (iter != myBst.traversedList[i]) return false;
+        if (iter != traversedList[i]->key) return false;
     return true;
 }
 
