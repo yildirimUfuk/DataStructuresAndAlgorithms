@@ -2,6 +2,7 @@
 #include<iostream>
 #include<vector>
 #include<stack>
+#include<queue>
 struct twoChieldsNode
 {
 	int key;
@@ -32,6 +33,7 @@ public:
 	void treeInorderTraverseWithStack();
 	void treePostorderTraverser(twoChieldsNode* iter);
 	void treePostorderTraverseWithStack();
+	void treebreathFirstSearchAlgorithm();
 	twoChieldsNode* find(int key);
 	twoChieldsNode* min();
 	twoChieldsNode* max();
