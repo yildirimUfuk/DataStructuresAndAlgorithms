@@ -17,11 +17,11 @@ private:
 
 	twoChieldsNode** find(int& key, twoChieldsNode** iter);
 	void eraseAll(twoChieldsNode* root); // this will be used for destructer.
-	twoChieldsNode* root;
+	twoChieldsNode* root; // root of the tree
 	std::vector<twoChieldsNode*> traversedList; // this used with stack and recursive metohod. Thats wht it holds pointer.
 public:
 	myBST() :root(NULL) {}
-	myBST(bool deneme);
+	myBST(bool deneme); //it used for traying to the codes. It initialize an example tree.
 	~myBST();
 	void clearTraversedList() { traversedList.clear(); }
 	std::vector<twoChieldsNode*> getTraversedList() { return traversedList; }

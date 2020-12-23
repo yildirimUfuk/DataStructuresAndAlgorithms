@@ -163,7 +163,10 @@
     <ClCompile Include="MemoryUsage.cpp" />
     <ClCompile Include="MergeTwoSortedList21.cpp" />
     <ClCompile Include="MinCoinExchange.cpp" />
+    <ClCompile Include="myBST.cpp" />
+    <ClCompile Include="myBSTTest.cpp" />
     <ClCompile Include="palindromeNumberClass.cpp" />
+    <ClCompile Include="printValidity.cpp" />
     <ClCompile Include="ProcessCreating.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArray26.cpp" />
     <ClCompile Include="RemoveElement27.cpp" />
@@ -206,7 +209,10 @@
     <ClInclude Include="MemoryUsage.h" />
     <ClInclude Include="MergeTwoSortedList21.h" />
     <ClInclude Include="MinCoinExchange.h" />
+    <ClInclude Include="myBST.h" />
+    <ClInclude Include="myBSTTest.h" />
     <ClInclude Include="palindromeNumberClass.h" />
+    <ClInclude Include="printValidity.h" />
     <ClInclude Include="ProcessCreating.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedArray26.h" />
     <ClInclude Include="RemoveElement27.h" />

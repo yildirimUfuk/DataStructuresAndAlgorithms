@@ -177,6 +177,15 @@
     <ClCompile Include="linkedListTest.cpp">
       <Filter>Source Files\workForSchool\tests</Filter>
     </ClCompile>
+    <ClCompile Include="myBSTTest.cpp">
+      <Filter>Source Files\workForSchool\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="printValidity.cpp">
+      <Filter>Source Files\workForSchool\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="myBST.cpp">
+      <Filter>Source Files\workForSchool\sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -301,6 +310,15 @@
     </ClInclude>
     <ClInclude Include="linkedListTest.h">
       <Filter>Header Files\workForSchool\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="myBSTTest.h">
+      <Filter>Header Files\workForSchool\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="myBST.h">
+      <Filter>Header Files\workForSchool\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="printValidity.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
