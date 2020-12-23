@@ -1,9 +1,11 @@
 #pragma once
 #include"linkedListTest.h"
+#include"myBSTTest.h"
 class wfsTests
 {
 private:
-	linkedListTest listTest;
+	//linkedListTest listTest;
+	myBSTTest bstTest;
 public:
 	void test();
 };
