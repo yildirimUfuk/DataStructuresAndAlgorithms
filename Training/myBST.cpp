@@ -27,12 +27,25 @@ myBST::myBST(bool deneme)
 
 myBST::~myBST()
 {
+    std::stack<twoChieldsNode*> treeStack;
+    std::vector<twoChieldsNode**> treeNodes;
+    treeStack.push(root);
+    while (!treeStack.empty())
+    {
+        auto iter = treeStack.top();
+        treeStack.pop();
+        if (!iter->right) treeStack.push(iter->right);
+        if (!iter->left) treeStack.push(iter->left);
+        treeNodes.push_back(&iter);
+    }
+    for (auto iter : treeNodes)
+        delete* iter;
+    //it hasn't tried yet it works or not.
 }
 
 void myBST::add(int key)
 {
-    twoChieldsNode** iter = find(key, &root);
-    (*iter) ? (*iter) = new twoChieldsNode(key) : NULL;
+    
 }
 
 void myBST::remove(int key)
@@ -75,8 +88,7 @@ void myBST::treeInorderTraverser(twoChieldsNode* iter)
 
 void myBST::treeInorderTraverseWithStack()
 {
-    twoChieldsNode* iter = root;
-    
+    throw std::exception("not implement yet");
 }
 
 void myBST::treePostorderTraverser(twoChieldsNode* iter)
@@ -89,13 +101,7 @@ void myBST::treePostorderTraverser(twoChieldsNode* iter)
 
 void myBST::treePostorderTraverseWithStack()
 {
-    twoChieldsNode* iter = root;
-    std::stack<twoChieldsNode*>myStack;
-    //post order stack kullanilarak yazilacak.
-    while (true)
-    {
-
-    }
+    throw std::exception("not implement yet");
 }
 
 void myBST::treebreathFirstSearchAlgorithm()
@@ -106,7 +112,7 @@ void myBST::treebreathFirstSearchAlgorithm()
     {
         auto iter = myQueue.front();
         myQueue.pop();
-        traversedList.push_back(iter);
+        traversedList.push_back(iter); // adding traversed list nodes to the list.
         if (!iter->left) myQueue.push(iter->left);
         if (!iter->right) myQueue.push(iter->right);
     }
