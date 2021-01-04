@@ -161,6 +161,7 @@
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrayTest.cpp" />
     <ClCompile Include="MemoryUsage.cpp" />
+    <ClCompile Include="mergeKSortedLists.cpp" />
     <ClCompile Include="MergeTwoSortedList21.cpp" />
     <ClCompile Include="MinCoinExchange.cpp" />
     <ClCompile Include="myBST.cpp" />
@@ -207,6 +208,7 @@
     <ClInclude Include="MedianOfTwoSortedArrays.h" />
     <ClInclude Include="MedianOfTwoSortedArrayTest.h" />
     <ClInclude Include="MemoryUsage.h" />
+    <ClInclude Include="mergeKSortedLists.h" />
     <ClInclude Include="MergeTwoSortedList21.h" />
     <ClInclude Include="MinCoinExchange.h" />
     <ClInclude Include="myBST.h" />
