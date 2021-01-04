@@ -186,6 +186,9 @@
     <ClCompile Include="myBST.cpp">
       <Filter>Source Files\workForSchool\sources</Filter>
     </ClCompile>
+    <ClCompile Include="mergeKSortedLists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -318,6 +321,9 @@
       <Filter>Header Files\workForSchool\sources</Filter>
     </ClInclude>
     <ClInclude Include="printValidity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mergeKSortedLists.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
