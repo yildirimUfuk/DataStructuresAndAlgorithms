@@ -144,6 +144,8 @@
     <ClCompile Include="CoinExchangeTest.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainerWithMostWaterTest.cpp" />
+    <ClCompile Include="DivideTwoIntegers.cpp" />
+    <ClCompile Include="DivideTwoIntegersTests.cpp" />
     <ClCompile Include="EditDistancaBetweenTwoStringsTest.cpp" />
     <ClCompile Include="EditDistanceBetweenTwoStrings.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
@@ -192,6 +194,8 @@
     <ClInclude Include="CoinExchangeTest.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="ContainerWithMostWaterTest.h" />
+    <ClInclude Include="DivideTwoIntegers.h" />
+    <ClInclude Include="DivideTwoIntegersTests.h" />
     <ClInclude Include="EditDistancaBetweenTwoStringsTest.h" />
     <ClInclude Include="EditDistanceBetweenTwoStrings.h" />
     <ClInclude Include="IntegerToRoman.h" />

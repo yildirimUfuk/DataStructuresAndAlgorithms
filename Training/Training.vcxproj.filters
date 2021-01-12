@@ -189,6 +189,12 @@
     <ClCompile Include="mergeKSortedLists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DivideTwoIntegers.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="DivideTwoIntegersTests.cpp">
+      <Filter>Source Files\leetCode\test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -325,6 +331,12 @@
     </ClInclude>
     <ClInclude Include="mergeKSortedLists.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DivideTwoIntegers.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="DivideTwoIntegersTests.h">
+      <Filter>Header Files\leetCode\test</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
