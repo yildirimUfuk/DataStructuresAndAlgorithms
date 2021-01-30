@@ -195,6 +195,15 @@
     <ClCompile Include="DivideTwoIntegersTests.cpp">
       <Filter>Source Files\leetCode\test</Filter>
     </ClCompile>
+    <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateParentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateParenthesesTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -337,6 +346,15 @@
     </ClInclude>
     <ClInclude Include="DivideTwoIntegersTests.h">
       <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="LetterCombinationsOfAPhoneNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateParentheses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateParenthesesTest.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
