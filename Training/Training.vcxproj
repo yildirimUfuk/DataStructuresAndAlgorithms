@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -148,10 +148,13 @@
     <ClCompile Include="DivideTwoIntegersTests.cpp" />
     <ClCompile Include="EditDistancaBetweenTwoStringsTest.cpp" />
     <ClCompile Include="EditDistanceBetweenTwoStrings.cpp" />
+    <ClCompile Include="GenerateParentheses.cpp" />
+    <ClCompile Include="GenerateParenthesesTest.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="IntegerToRomanTest.cpp" />
     <ClCompile Include="JewelsAndStones.cpp" />
     <ClCompile Include="JewelsAndStonesTest.cpp" />
+    <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="linkedList.cpp" />
     <ClCompile Include="linkedListTest.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
@@ -198,10 +201,13 @@
     <ClInclude Include="DivideTwoIntegersTests.h" />
     <ClInclude Include="EditDistancaBetweenTwoStringsTest.h" />
     <ClInclude Include="EditDistanceBetweenTwoStrings.h" />
+    <ClInclude Include="GenerateParentheses.h" />
+    <ClInclude Include="GenerateParenthesesTest.h" />
     <ClInclude Include="IntegerToRoman.h" />
     <ClInclude Include="IntegerToRomanTest.h" />
     <ClInclude Include="JewelsAndStones.h" />
     <ClInclude Include="JewelsAndStonesTest.h" />
+    <ClInclude Include="LetterCombinationsOfAPhoneNumber.h" />
     <ClInclude Include="linkedList.h" />
     <ClInclude Include="linkedListTest.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
