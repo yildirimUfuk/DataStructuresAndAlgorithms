@@ -31,6 +31,6 @@ private:
 	bool test3();
 	bool test4();
 	bool test5();
-	bool test6();//its for second metod
+	bool test6();
 };
 

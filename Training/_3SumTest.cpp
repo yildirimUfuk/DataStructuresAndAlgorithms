@@ -72,11 +72,12 @@ bool _3SumTest::test5()
 
 bool _3SumTest::test6()
 {
-    std::vector<int> nums = { -1,0,1,2,-1,-4 };
-    std::vector<std::vector<int>> solution = sum3.threeSum2(nums);
+    std::vector<int> nums = { 1, 2, -2, -1 };
+    std::vector<std::vector<int>> solution = sum3.threeSum(nums);
     for (auto item : solution)
     {
         if ((item[0] + item[1] + item[2]) != 0) return false;
     }
+    if (solution.size() != 0) return false;
     return true;
 }
