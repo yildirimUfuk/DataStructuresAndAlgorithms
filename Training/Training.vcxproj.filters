@@ -204,6 +204,9 @@
     <ClCompile Include="rotateImage.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
+    <ClCompile Include="runningSumOf1dArray.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h">
@@ -354,6 +357,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="rotateImage.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="runningSumOf1dArray.h">
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
   </ItemGroup>
