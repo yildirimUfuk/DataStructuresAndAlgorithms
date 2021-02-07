@@ -180,6 +180,7 @@
     <ClCompile Include="reverseString.cpp" />
     <ClCompile Include="RomanToInteger.cpp" />
     <ClCompile Include="rotateImage.cpp" />
+    <ClCompile Include="runningSumOf1dArray.cpp" />
     <ClCompile Include="SearchInsertPosition35.cpp" />
     <ClCompile Include="stringToInteger.cpp" />
     <ClCompile Include="stringToIntegerTest.cpp" />
@@ -232,6 +233,7 @@
     <ClInclude Include="reverseString.h" />
     <ClInclude Include="RomanToInteger.h" />
     <ClInclude Include="rotateImage.h" />
+    <ClInclude Include="runningSumOf1dArray.h" />
     <ClInclude Include="SearchInsertPosition35.h" />
     <ClInclude Include="stringToInteger.h" />
     <ClInclude Include="stringToIntegerTest.h" />
