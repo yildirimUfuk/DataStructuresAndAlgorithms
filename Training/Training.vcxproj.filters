@@ -186,26 +186,32 @@
     <ClCompile Include="myBST.cpp">
       <Filter>Source Files\workForSchool\sources</Filter>
     </ClCompile>
-    <ClCompile Include="mergeKSortedLists.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DivideTwoIntegers.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
     <ClCompile Include="DivideTwoIntegersTests.cpp">
       <Filter>Source Files\leetCode\test</Filter>
     </ClCompile>
-    <ClCompile Include="GenerateParentheses.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GenerateParenthesesTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="rotateImage.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
     </ClCompile>
     <ClCompile Include="runningSumOf1dArray.cpp">
       <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveZeroes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mergeKSortedLists.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateParentheses.cpp">
+      <Filter>Source Files\leetCode\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateParenthesesTest.cpp">
+      <Filter>Source Files\leetCode\test</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveZerosTests.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -338,29 +344,35 @@
     <ClInclude Include="myBST.h">
       <Filter>Header Files\workForSchool\sources</Filter>
     </ClInclude>
-    <ClInclude Include="printValidity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="mergeKSortedLists.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DivideTwoIntegers.h">
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
     <ClInclude Include="DivideTwoIntegersTests.h">
       <Filter>Header Files\leetCode\test</Filter>
     </ClInclude>
-    <ClInclude Include="GenerateParentheses.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GenerateParenthesesTest.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="rotateImage.h">
       <Filter>Header Files\leetCode\problem</Filter>
     </ClInclude>
     <ClInclude Include="runningSumOf1dArray.h">
       <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveZeroes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mergeKSortedLists.h">
+      <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateParenthesesTest.h">
+      <Filter>Header Files\leetCode\test</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateParentheses.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="printValidity.h">
+      <Filter>Header Files\leetCode\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveZerosTests.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

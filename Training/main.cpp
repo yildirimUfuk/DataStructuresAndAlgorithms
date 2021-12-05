@@ -1,7 +1,10 @@
 #include<iostream>
-using namespace std;
-#include"Test.h"
+#include<vector>
 #include"wfsTests.h"
+
+#include"Test.h"
+#include"MoveZeroes.h"
+
 
 int main()
 {

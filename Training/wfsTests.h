@@ -1,17 +1,10 @@
 #pragma once
-#include"linkedListTest.h"
-#include"myBSTTest.h"
-#include"DivideTwoIntegersTests.h"
-#include"_3SumTest.h"
-#include"GenerateParenthesesTest.h"
+#include"MoveZerosTests.h"
+#include<iostream>
 class wfsTests
 {
 private:
-	//linkedListTest listTest;
-	//myBSTTest bstTest;
-	//DivideTwoIntegersTests d;
-	//_3SumTest threeSum;
-	GenerateParenthesesTest generateParantheses;
+	MoveZerosTests mz;
 public:
 	void test();
 };

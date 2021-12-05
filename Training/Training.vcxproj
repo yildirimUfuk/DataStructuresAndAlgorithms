@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -168,6 +168,8 @@
     <ClCompile Include="mergeKSortedLists.cpp" />
     <ClCompile Include="MergeTwoSortedList21.cpp" />
     <ClCompile Include="MinCoinExchange.cpp" />
+    <ClCompile Include="MoveZeroes.cpp" />
+    <ClCompile Include="MoveZerosTests.cpp" />
     <ClCompile Include="myBST.cpp" />
     <ClCompile Include="myBSTTest.cpp" />
     <ClCompile Include="palindromeNumberClass.cpp" />
@@ -221,6 +223,8 @@
     <ClInclude Include="mergeKSortedLists.h" />
     <ClInclude Include="MergeTwoSortedList21.h" />
     <ClInclude Include="MinCoinExchange.h" />
+    <ClInclude Include="MoveZeroes.h" />
+    <ClInclude Include="MoveZerosTests.h" />
     <ClInclude Include="myBST.h" />
     <ClInclude Include="myBSTTest.h" />
     <ClInclude Include="palindromeNumberClass.h" />
